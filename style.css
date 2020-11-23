@@ -3,3 +3,32 @@
     padding:0;
     box-sizing: border-box;
 }
+
+#heroSection{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:400px;
+    width:1200px;
+    background-color: grey;
+    box-shadow: 0 25px 30px rgba(0,0,0,0.5);
+    display:flex;
+}
+
+.content{
+    width:50%;
+    height:100%;
+    background:#ff0;
+    box-sizing: border-box;
+}
+
+.imageBox{
+    width:50%;
+    height:100%;
+    background:#f00;
+    box-sizing: border-box;
+    border-left:100px solid #ff0;
+    border-bottom:400px solid transparent;
+}
+
